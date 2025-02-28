@@ -4,7 +4,7 @@ title: LION 🦁 Part I - Full Linear Attention
 description: Explaining the Full Linear Attention paradigm for bi-directional sequence modeling
 tags:
 giscus_comments: false
-date: 2025-02-24
+date: 2025-02-28
 featured: false
 thumbnail: assets/img/lion.jpg
 
@@ -52,9 +52,9 @@ toc:
 [[Code](https://github.com/LIONS-EPFL/LION)]
 
 1. Part I - Full Linear Attention
-2. [Part II - Bi-directional RNN]({% post_url 2024-05-31-lion-part2-theory %})
-3. [Part III - Chunkwise Parallel from of LION]({% post_url 2024-05-31-lion-part3-chunk %})
-4. [Part IV - Results]({% post_url 2024-05-31-lion-part4-results %})
+2. [Part II - Bi-directional RNN]({% post_url 2024-02-28-lion-part2-theory %})
+3. [Part III - Chunkwise Parallel from of LION]({% post_url 2024-02-28-lion-part3-chunk %})
+4. [Part IV - Results]({% post_url 2024-02-28-lion-part4-results %})
 
 ---
 
@@ -255,6 +255,6 @@ We believe that architectures designed for causal tasks can really benefit from 
 
 - Finally, we introduce a **chunkwise parallel** variant of LION to balance recurrence and parallelism 🙂.
 
-[Continue reading to Part II - Bi-directional RNN]({% post_url 2024-05-31-lion-part2-theory %})
+[Continue reading to Part II - Bi-directional RNN]({% post_url 2024-02-28-lion-part2-theory %})
 
 _Acknowledgement:_ We appreciate [Albert Gu](https://goombalab.github.io/) and [Tri Dao](https://tridao.me/blog/) for their insightful blog posts, which have been helpful in shaping our own.

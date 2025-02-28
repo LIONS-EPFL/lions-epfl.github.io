@@ -4,7 +4,7 @@ title: LION 🦁 Part III - Chunkwise Parallel from of LION
 description: Explaining LION-Chunk for Balancing Memory-Speed Tradeoffs During Inference
 tags:
 giscus_comments: false
-date: 2025-02-24
+date: 2025-02-28
 featured: false
 thumbnail: assets/img/lion.jpg
 
@@ -50,12 +50,12 @@ toc:
 [[Paper](https://www.arxiv.org/abs/2502.16249)]
 [[Code](https://github.com/LIONS-EPFL/LION)]
 
-1. [Part I - Full Linear Attention]({% post_url 2024-05-31-lion-part1-model %})
-2. [Part II - Bi-directional RNN]({% post_url 2024-05-31-lion-part2-theory %})
+1. [Part I - Full Linear Attention]({% post_url 2024-02-28-lion-part1-model %})
+2. [Part II - Bi-directional RNN]({% post_url 2024-02-28-lion-part2-theory %})
 3. Part III - Chunkwise Parallel from of LION
-4. [Part IV - Results]({% post_url 2024-05-31-lion-part4-results %})
+4. [Part IV - Results]({% post_url 2024-02-28-lion-part4-results %})
 
-Since we have now established the LION framework, which maps Full Linear Attention into a bi-directional RNN in [Part II]({% post_url 2024-05-31-lion-part2-theory %}) of this series, a key question arises:
+Since we have now established the LION framework, which maps Full Linear Attention into a bi-directional RNN in [Part II]({% post_url 2024-02-28-lion-part2-theory %}) of this series, a key question arises:
 
 Given that RNNs are efficient and Attention is fast, can we strike a balance between them?
 
@@ -195,8 +195,8 @@ Now that we have all elements in place let's see how these models are working in
 
 ## Next Up
 
-In the [final part of this series]({% post_url 2024-05-31-lion-part4-results %}), we present the advantages of using LION compared to other methods for training SSMs or Linear Transformers.
+In the [final part of this series]({% post_url 2024-02-28-lion-part4-results %}), we present the advantages of using LION compared to other methods for training SSMs or Linear Transformers.
 
 We also present the trade-offs for different LION 🦁 models and compare them with other well-known SSMs and Softmax Transformers.
 
-[Continue reading to Part IV - Results]({% post_url 2024-05-31-lion-part4-results %})
+[Continue reading to Part IV - Results]({% post_url 2024-02-28-lion-part4-results %})

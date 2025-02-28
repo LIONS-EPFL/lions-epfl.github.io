@@ -4,7 +4,7 @@ title: LION 🦁 Part II - Bi-directional RNN
 description: Deriving equivalent bi-directional RNN for Linear Attention
 tags:
 giscus_comments: false
-date: 2025-02-24
+date: 2025-02-28
 featured: false
 thumbnail: assets/img/lion.jpg
 
@@ -54,12 +54,12 @@ toc:
 [[Paper](https://www.arxiv.org/abs/2502.16249)]
 [[Code](https://github.com/LIONS-EPFL/LION)]
 
-1. [Part I - Full Linear Attention]({% post_url 2024-05-31-lion-part1-model %})
+1. [Part I - Full Linear Attention]({% post_url 2024-02-28-lion-part1-model %})
 2. Part II - Bi-directional RNN
-3. [Part III - Chunkwise Parallel from of LION]({% post_url 2024-05-31-lion-part3-chunk %})
-4. [Part IV - Results]({% post_url 2024-05-31-lion-part4-results %})
+3. [Part III - Chunkwise Parallel from of LION]({% post_url 2024-02-28-lion-part3-chunk %})
+4. [Part IV - Results]({% post_url 2024-02-28-lion-part4-results %})
 
-In [Part I]({% post_url 2024-05-31-lion-part1-model %}) of this series, we defined Full Linear Attention with Masking and Scaling.
+In [Part I]({% post_url 2024-02-28-lion-part1-model %}) of this series, we defined Full Linear Attention with Masking and Scaling.
 Similar to all Linear Transformers designed for Causal Sequence Modeling, we aim to derive an RNN form for efficiency during inference.
 In this section, we theoretically demonstrate the equivalent bi-directional RNN for the Full Linear Transformer.
 
@@ -353,4 +353,4 @@ We will answer this question in our next section by introducing LION-Chunk.
 
 - We show the numercial results and experiments on [Imagenet](https://www.image-net.org/) and [C4](https://paperswithcode.com/dataset/c4) dataset 😊.
 
-[Continue reading to Part III - Chunkwise Parallel from of LION]({% post_url 2024-05-31-lion-part3-chunk %})
+[Continue reading to Part III - Chunkwise Parallel from of LION]({% post_url 2024-02-28-lion-part3-chunk %})

@@ -4,7 +4,7 @@ title: LION 🦁 Part IV - Results
 description: Comprehensive results on Vision, MLM and more LION variants
 tags:
 giscus_comments: false
-date: 2025-02-24
+date: 2025-02-28
 featured: false
 thumbnail: assets/img/lion.jpg
 
@@ -57,9 +57,9 @@ toc:
 [[Paper](https://www.arxiv.org/abs/2502.16249)]
 [[Code](https://github.com/LIONS-EPFL/LION)]
 
-1. [Part I - Full Linear Attention]({% post_url 2024-05-31-lion-part1-model %})
-2. [Part II - Bi-directional RNN]({% post_url 2024-05-31-lion-part2-theory %})
-3. [Part III - Chunkwise Parallel from of LION]({% post_url 2024-05-31-lion-part3-chunk %})
+1. [Part I - Full Linear Attention]({% post_url 2024-02-28-lion-part1-model %})
+2. [Part II - Bi-directional RNN]({% post_url 2024-02-28-lion-part2-theory %})
+3. [Part III - Chunkwise Parallel from of LION]({% post_url 2024-02-28-lion-part3-chunk %})
 4. Part IV - Results
 
 In the final part of our LION series, we will present and discuss a selection of experimental results across various domains, including vision tasks, masked language modeling (MLM), and different LION architectures. These results not only highlight LION's versatility and efficiency across diverse applications but also serve as a preview of the comprehensive findings detailed in the full paper.
