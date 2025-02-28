@@ -85,14 +85,15 @@ using these chunked matrices we shape the full linear atteniton in chunk form as
 
 > **LION Chunk**
 >
-> $$\begin{aligned}
-
+> 
+$$
+\begin{aligned}
     \mathbf{A}_{[ij]} & = \mathbf{Q}_{[i]}\mathbf{K}_{[j]}^\top \odot \mathbf{M}_{[ij]}, \\
-     \mathbf{C}_{[ij]} &= \mathbf{C}_{[i(j-1)]} + \text{Sum} (\mathbf{A}_{[ij]}), \\
-     \mathbf{S}_{[ij]} & =\mathbf{S}_{[i(j-1)]} + \mathbf{A}_{[ij]} \mathbf{V}_{[j]} , \\
-     \mathbf{Y}_{[i]} & = \frac{\mathbf{S}_{[iN]}}{\mathbf{C}_{[iN]}}
-
-\end{aligned}$$
+    \mathbf{C}_{[ij]} &= \mathbf{C}_{[i(j-1)]} + \text{Sum}(\mathbf{A}_{[ij]}), \\
+    \mathbf{S}_{[ij]} & = \mathbf{S}_{[i(j-1)]} + \mathbf{A}_{[ij]} \mathbf{V}_{[j]}, \\
+    \mathbf{Y}_{[i]} & = \frac{\mathbf{S}_{[iN]}}{\mathbf{C}_{[iN]}}
+\end{aligned}
+$$
 {: .block-tip}
 
 where $\text{Sum}$ operations applies summation over the row of the input matrix. And $\mathbf{M}_{[ij]}$ corresponds to a submatrix of the full maks $\mathbf{M}$ at chunk $ij$ like:
